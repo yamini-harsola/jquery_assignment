@@ -1,0 +1,95 @@
+
+
+.nav{
+	background: darkgrey;
+	color: black;
+	display: inline-flex;
+	width: 100vw;
+	font-family: serif;
+}
+
+div#left{
+	position: relative;
+	float: left;
+}
+
+div#right{
+	position: relative;
+    float: right;
+}
+
+li{
+	display: unset;
+    font-size: 2em;
+}
+
+ul{
+    padding-left: 50vw;
+}
+
+button{
+	background: black;
+	color: white;
+	position: relative;
+}
+
+@media only screen and (max-width: 360px)
+{
+	ul{
+    display: none;
+	}
+    li{
+    width: 100%;
+    position: relative;
+    opacity: 1;
+    display: flex;
+    flex-direction: row;
+    font-size: 1em;
+	}
+     button {
+    margin-top: 4vh;
+    margin-left: 41vw;
+    width: 50px;
+    }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 480px)
+{
+	ul{
+    display: none;
+	}
+    li{
+    width: 100%;
+    position: relative;
+    opacity: 1;
+    display: flex;
+    flex-direction: row;
+    font-size: 1em;
+	}
+    button {
+    margin-top: 2.5vh;
+    margin-left: 50vw;
+    width: 50px;
+    }
+}
+
+
+@media only screen and (min-width: 480px) and (max-width: 1024px)
+{
+    button {
+     display: none;
+    }
+    div#right {
+    margin-left: -17vw;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1366px)
+{
+    button {
+     display: none;
+    }
+    div#right {
+    margin-left: 3vw;
+}
+}

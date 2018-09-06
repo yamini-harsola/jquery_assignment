@@ -1,0 +1,89 @@
+:root{
+	font-size: 16px;
+	background: black;
+	color: white;
+};
+
+div{
+	display: flex;
+	flex-direction: column;
+}
+h4{
+	box-shadow: 0 0 7px 1px darkgreen;
+    height: 10vh;
+    font-size: 1.5rem;
+}
+
+.dispHtml{
+	display:none;
+}
+.dispCss{
+	display:none;
+}
+.dispJs{
+	display:none;
+}
+
+@media only screen and (max-width: 360px)
+{
+	.dispHtml{
+	font-size: 1rem;
+    }
+    .dispCss{
+	font-size: 1rem;
+    }
+    .dispJs{
+	font-size: 1rem;
+    }
+    h4{
+    	font-size: 1.5rem;
+    }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 480px)
+{
+	.dispHtml{
+	font-size: 1.5rem;
+    }
+    .dispCss{
+	font-size: 1.5rem;
+    }
+    .dispJs{
+	font-size: 1.5rem;
+    }
+    h4{
+    	font-size: 3rem;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 1024px)
+{
+	.dispHtml{
+	font-size: 2rem;
+    }
+    .dispCss{
+	font-size: 2rem;
+    }
+    .dispJs{
+	font-size: 2rem;
+    }
+    h4{
+    	font-size: 4rem;
+    }
+}
+
+@media only screen and (min-width: 1024px)
+{
+	.dispHtml{
+	font-size: 2.5rem;
+    }
+    .dispCss{
+	font-size: 2.5rem;
+    }
+    .dispJs{
+	font-size: 2.5rem;
+    }
+    h4{
+    	font-size: 4rem;
+    }
+}
